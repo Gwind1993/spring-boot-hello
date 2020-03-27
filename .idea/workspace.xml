@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72a48b69-9c8e-45a7-bf15-7a42c5a7e635" name="Default Changelist" comment="Springboot jpa practice">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/gaosicheng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hello.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/ben/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/ben/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/ben/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/dao/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/dao/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/dao/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/boot/test/MysqlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-boot-hello.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/ben/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/ben/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/ben/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/dao/DepartmentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/dao/EmployeeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/dao/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/spring/boot/test/MysqlTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Git Repository" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/software/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/software/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZevqHJOvfNWXvZtzXfU0vDaQhy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MysqlTest.findPage">
+    <configuration name="MysqlTest.findPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.boot.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.boot.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.boot.test.MysqlTest" />
+      <option name="METHOD_NAME" value="findPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.boot.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.boot.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MysqlTest.findPage" />
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72a48b69-9c8e-45a7-bf15-7a42c5a7e635" name="Default Changelist" comment="" />
+      <created>1585212563392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585212563392</updated>
+      <workItem from="1585212564762" duration="11718000" />
+      <workItem from="1585302841586" duration="260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Springboot jpa practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Springboot jpa practice" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Assign_Data_Sources" timestamp="1585286021012">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Assign_Data_Sources/0.0.1680.1050@0.0.1680.1050" timestamp="1585286021012" />
+    <state x="439" y="190" key="#Project_Structure" timestamp="1585299853184">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="439" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1585299853184" />
+    <state x="653" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1585300449121">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1585300449121" />
+    <state x="382" y="125" key="CommitChangelistDialog2" timestamp="1585303083292">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="382" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585303083292" />
+    <state x="643" y="448" key="Github.CreateGistDialog" timestamp="1585302946863">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="643" y="448" key="Github.CreateGistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585302946863" />
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1585302501682">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585302501682" />
+    <state width="1638" height="363" key="GridCell.Tab.0.center" timestamp="1585302501680">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585302501680" />
+    <state width="1638" height="363" key="GridCell.Tab.0.left" timestamp="1585302501679">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585302501679" />
+    <state width="1638" height="363" key="GridCell.Tab.0.right" timestamp="1585302501681">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585302501681" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1585302501684">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585302501684" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1585302501683">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585302501683" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1585302501682">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585302501682" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1585302501683">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585302501683" />
+    <state width="1638" height="363" key="GridCell.Tab.2.bottom" timestamp="1585301899139">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585301899139" />
+    <state width="1638" height="363" key="GridCell.Tab.2.center" timestamp="1585301899138">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585301899138" />
+    <state width="1638" height="363" key="GridCell.Tab.2.left" timestamp="1585301899138">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585301899138" />
+    <state width="1638" height="363" key="GridCell.Tab.2.right" timestamp="1585301899139">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585301899139" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1585302820223">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1585302820223" />
+    <state x="623" y="310" key="chooseDestDirectoryDialog" timestamp="1585299802376">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="623" y="310" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585299802376" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1585302845312">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585302845312" />
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1585272902409">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585272902409" />
+  </component>
+</project>
