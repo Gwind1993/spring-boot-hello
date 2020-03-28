@@ -1,44 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72a48b69-9c8e-45a7-bf15-7a42c5a7e635" name="Default Changelist" comment="Springboot jpa practice">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/gaosicheng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-hello.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/ben/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/ben/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/ben/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/dao/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/dao/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/boot/example/dao/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-pro.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/boot/test/MysqlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-boot-hello.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-pro.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/ben/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/ben/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/ben/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/dao/DepartmentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/dao/EmployeeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/boot/example/dao/RoleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/spring/boot/test/MysqlTest.class" afterDir="false" />
+    <list default="true" id="72a48b69-9c8e-45a7-bf15-7a42c5a7e635" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +18,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Git Repository" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -99,7 +70,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -166,8 +137,17 @@
       <option name="presentableId" value="Default" />
       <updated>1585212563392</updated>
       <workItem from="1585212564762" duration="11718000" />
-      <workItem from="1585302841586" duration="260000" />
+      <workItem from="1585302841586" duration="688000" />
+      <workItem from="1585322313896" duration="1383000" />
     </task>
+    <task id="LOCAL-00001" summary="Springboot jpa practice">
+      <created>1585303111205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585303111205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,14 +170,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="653" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1585300449121" />
-    <state x="382" y="125" key="CommitChangelistDialog2" timestamp="1585303083292">
+    <state x="382" y="125" key="CommitChangelistDialog2" timestamp="1585303110856">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="382" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585303083292" />
+    <state x="382" y="125" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585303110856" />
     <state x="643" y="448" key="Github.CreateGistDialog" timestamp="1585302946863">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="643" y="448" key="Github.CreateGistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585302946863" />
+    <state x="683" y="425" width="313" height="274" key="Github.ShareDialog" timestamp="1585322551994">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="683" y="425" width="313" height="274" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585322551994" />
     <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1585302501682">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -246,18 +230,30 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585301899139" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1585302820223">
+    <state x="341" y="164" key="SettingsEditor" timestamp="1585322717301">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1585302820223" />
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1585322717301" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585322734262">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1585322734262" />
     <state x="623" y="310" key="chooseDestDirectoryDialog" timestamp="1585299802376">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="623" y="310" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585299802376" />
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1585302845312">
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1585322314720">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585302845312" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585322314720" />
+    <state x="537" y="323" key="git4idea.merge.GitMergeDialog" timestamp="1585323298778">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="537" y="323" key="git4idea.merge.GitMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585323298778" />
+    <state x="476" y="323" key="git4idea.merge.GitPullDialog" timestamp="1585323601907">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="476" y="323" key="git4idea.merge.GitPullDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585323601907" />
     <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1585272902409">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
