@@ -1,64 +1,63 @@
 package com.spring.boot.test;
 
-public class TransferValue {
+class Person {
 
-    public static void main(String[] args) {
-        TransferValue test = new TransferValue();
-        int age = 10;
-        test.changeAge(age);
-        System.out.println(age);
+  private Integer age;
+  private String name;
 
-        Person person = new Person("aaa");
-        test.changeName(person);
-        System.out.println(person.getName());
+  public Person() {
+  }
 
+  public Person(String name) {
+    this.name = name;
+  }
 
-        String str = "abc";
-        test.changStr(str);
-        System.out.println(str);
-    }
+  public Integer getAge() {
+    return age;
+  }
 
-    public void changeAge(Integer age){
-        age = 30;
-    }
+  public void setAge(Integer age) {
+    this.age = age;
+  }
 
-    public void changeName(Person person){
-        person.setName("XXX");
-    }
+  public String getName() {
+    return name;
+  }
 
-    public void changStr(String str){
-        str = "xxx";
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
 }
 
+public class TransferValue {
 
-class Person{
+  public static void main(String[] args) {
+    TransferValue test = new TransferValue();
+    int age = 10;
+    test.changeAge(age);
+    System.out.println(age);
 
-    private Integer age;
-    private String name;
+    Person person = new Person("aaa");
+    test.changeName(person);
+    System.out.println(person.getName());
 
-    public Person() {
-    }
 
-    public Person(String name) {
-        this.name = name;
-    }
+    String str = "abc";
+    test.changStr(str);
+    System.out.println(str);
+  }
 
-    public Integer getAge() {
-        return age;
-    }
+  public void changeAge(Integer age) {
+    age = 30;
+  }
 
-    public void setAge(Integer age) {
-        this.age = age;
-    }
+  public void changeName(Person person) {
+    person.setName("XXX");
+  }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+  public void changStr(String str) {
+    str = "xxx";
+  }
 
 }

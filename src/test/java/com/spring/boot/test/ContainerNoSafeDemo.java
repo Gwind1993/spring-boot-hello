@@ -1,13 +1,14 @@
 package com.spring.boot.test;
 
-import java.util.*;
+import java.util.List;
+import java.util.UUID;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ContainerNoSafeDemo {
 
     public static void main(String[] args) {
-        /**
-         * 1、new Vector<>();
+        /*
+         *1、new Vector<>();
          * 2、Collections.SynchronizedList(new ArrayList<>());
          * 3、java.util.concurrent.CopyOnWriteArrayList
          */
@@ -37,5 +38,4 @@ public class ContainerNoSafeDemo {
      *
      * 四、优化建议
      */
-
 }
